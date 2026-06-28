@@ -1,49 +1,278 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+const name = "Wei Chen";
+const title = "Associate Professor";
+const department = "Department of Materials Design and Innovation";
+const university = "University at Buffalo";
+const email = "wchen226@buffalo.edu";
+
+const researchAreas = [
+  "Data-driven and physics-based modeling of materials",
+  "Computational design of multi-principal element materials",
+  "High-entropy alloys and ceramics",
+  "Materials informatics and machine learning",
+  "Defect engineering across length scales",
+  "Additive manufacturing-aware materials design",
+];
+
+const links = [
+  {
+    label: "Google Scholar",
+    href: "https://scholar.google.com/citations?hl=en&user=pYM2BqsAAAAJ",
+  },
+  {
+    label: "UB Faculty Profile",
+    href: "https://engineering.buffalo.edu/materials-design-innovation/community.host.html/content/shared/engineering/materials-design-innovation/profiles/faculty/chen-wei.html",
+  },
+  {
+    label: "Email",
+    href: `mailto:${email}`,
+  },
+];
 ---
 
-<!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>{name} | Materials Design and Innovation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Wei Chen, Associate Professor at the University at Buffalo. Research in computational materials design, high-entropy materials, materials informatics, and physics-based modeling."
+    />
+  </head>
+
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="heroText">
+          <p class="eyebrow">Computational Materials Design • AI for Materials • High-Entropy Materials</p>
+          <h1>{name}</h1>
+          <h2>{title}</h2>
+          <p class="affiliation">
+            {department}<br />
+            {university}
+          </p>
+
+          <p class="summary">
+            My group develops data-driven and physics-based modeling approaches
+            to understand and design complex materials systems. We combine
+            atomistic modeling, thermodynamic modeling, machine learning,
+            statistical mechanics, and materials informatics to accelerate
+            materials discovery and connect processing, structure, properties,
+            and performance.
+          </p>
+
+          <div class="buttons">
+            {links.map((link) => (
+              <a href={link.href} target={link.label === "Email" ? "_self" : "_blank"}>
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div class="heroCard">
+          <div class="photoPlaceholder">WC</div>
+          <p><strong>Office:</strong> 120B Bonner Hall</p>
+          <p><strong>Email:</strong> <a href={`mailto:${email}`}>{email}</a></p>
+          <p><strong>Phone:</strong> (716) 645-9246</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Research Focus</h2>
+        <div class="grid">
+          {researchAreas.map((area) => (
+            <div class="card">{area}</div>
+          ))}
+        </div>
+      </section>
+
+      <section class="section twoColumn">
+        <div>
+          <h2>Research Vision</h2>
+          <p>
+            Modern materials design requires methods that are both physically
+            grounded and data-aware. Our work aims to create predictive,
+            interpretable, and manufacturing-relevant models for complex
+            materials, especially compositionally complex alloys and ceramics.
+          </p>
+        </div>
+
+        <div>
+          <h2>Current Directions</h2>
+          <ul>
+            <li>High-entropy and multi-principal element materials</li>
+            <li>Defect-informed phase stability and transformation pathways</li>
+            <li>Materials informatics for accelerated discovery</li>
+            <li>Computational design for additive manufacturing</li>
+            <li>AI-assisted modeling of structure–property relationships</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Selected Links</h2>
+        <p>
+          For publications and citation information, please visit my
+          <a href="https://scholar.google.com/citations?hl=en&user=pYM2BqsAAAAJ" target="_blank">
+            Google Scholar profile
+          </a>.
+          For official university information, please visit my
+          <a href="https://engineering.buffalo.edu/materials-design-innovation/community.host.html/content/shared/engineering/materials-design-innovation/profiles/faculty/chen-wei.html" target="_blank">
+            UB faculty profile
+          </a>.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
+
+<style>
+  :global(body) {
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f7f8fb;
+    color: #162033;
+  }
+
+  .page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 36px;
+    align-items: center;
+    padding: 56px;
+    background: white;
+    border-radius: 28px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+  }
+
+  .eyebrow {
+    color: #005bbb;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.82rem;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    line-height: 0.95;
+    margin: 12px 0;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+    margin: 0 0 16px;
+  }
+
+  .affiliation {
+    font-size: 1.15rem;
+    color: #4a5872;
+  }
+
+  .summary {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    max-width: 720px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    background: #005bbb;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 999px;
+    font-weight: 700;
+  }
+
+  .buttons a:hover {
+    background: #003f88;
+  }
+
+  .heroCard {
+    background: #f0f4fb;
+    border-radius: 24px;
+    padding: 28px;
+  }
+
+  .photoPlaceholder {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #005bbb;
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 24px;
+  }
+
+  .heroCard p {
+    margin: 12px 0;
+  }
+
+  a {
+    color: #005bbb;
+  }
+
+  .section {
+    margin-top: 36px;
+    padding: 40px;
+    background: white;
+    border-radius: 24px;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.05);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .card {
+    padding: 20px;
+    background: #f0f4fb;
+    border-radius: 18px;
+    font-weight: 650;
+  }
+
+  .twoColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 850px) {
+    .hero,
+    .twoColumn {
+      grid-template-columns: 1fr;
+    }
+
+    .hero {
+      padding: 32px;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
