@@ -1,0 +1,27 @@
+---
+import '../styles/site.css';
+import Statcounter from '../components/Statcounter.astro';
+interface Props { title?: string; description?: string; }
+const { title = 'Wei Chen | Computational Materials Design', description = 'Wei Chen, Professor at the University at Buffalo. Physics-based modeling and materials informatics for complex alloys, ceramics, and energy materials.' } = Astro.props;
+const onHome = Astro.url.pathname === '/';
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content={description} /><meta name="theme-color" content="#102c48" />
+<title>{title}</title><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+<meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:type" content="website" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="header-inner wrap">
+<a class="brand" href="/" aria-label="Wei Chen home"><span class="brand-mark" aria-hidden="true">w<span>.</span></span><span>Wei Chen<span class="brand-sub">MATERIALS DESIGN & INNOVATION</span></span></a>
+<nav aria-label="Main navigation"><a href={onHome ? '#research' : '/#research'}>Research</a><a href="/publications/" aria-current={Astro.url.pathname.startsWith('/publications') ? 'page' : undefined}>Publications</a><a href={onHome ? '#about' : '/#about'}>About</a><a class="nav-contact" href={onHome ? '#contact' : '/#contact'}>Contact <span aria-hidden="true">↗</span></a></nav>
+</div></header>
+<main id="main"><slot /></main>
+<footer class="site-footer wrap"><span>© {new Date().getFullYear()} Wei Chen</span><span>Materials Design and Innovation · University at Buffalo</span><a href="#main">Back to top ↑</a></footer>
+<Statcounter />
+</body>
+</html>

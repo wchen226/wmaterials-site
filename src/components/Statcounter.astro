@@ -1,0 +1,14 @@
+---
+// Public installation identifiers supplied by the site owner.
+// Do not send development-preview visits to the production analytics project.
+const enabled = import.meta.env.PROD;
+---
+{enabled && <>
+  <script is:inline>
+    var sc_project = 10802365;
+    var sc_invisible = 1;
+    var sc_security = "7bef869c";
+  </script>
+  <script is:inline src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer"><img class="statcounter" src="https://c.statcounter.com/10802365/0/7bef869c/1/" alt="Web Analytics" referrerpolicy="no-referrer-when-downgrade" /></a></div></noscript>
+</>}

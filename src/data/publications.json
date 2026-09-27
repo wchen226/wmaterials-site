@@ -1,0 +1,412 @@
+[
+  {
+    "group": "complex",
+    "doi": "10.1038/s41467-025-67301-7",
+    "title": "High-throughput discovery of ultrahigh-temperature multi-principal element alloys by combinatorial additive manufacturing",
+    "authors": [
+      "Weiqi Wang",
+      "Jian Liu",
+      "Chenyang Li",
+      "Yi-Cheng Lai",
+      "Wei Chen",
+      "Yunzhuo Lu",
+      "Wen Chen"
+    ],
+    "year": 2026,
+    "journal": "Nature Communications",
+    "volume": "17",
+    "issue": "1",
+    "pages": "668",
+    "date": [
+      2025,
+      12,
+      8
+    ],
+    "source": "https://www.nature.com/articles/s41467-025-67301-7",
+    "note": "Published online December 2025; volume year 2026."
+  },
+  {
+    "group": "complex",
+    "doi": "10.1002/adma.202508659",
+    "title": "Unravelling Microstructure Selection in an Additively Manufactured Eutectic High‐Entropy Alloy",
+    "authors": [
+      "Shengbiao Zhang",
+      "Chenyang Li",
+      "Shahryar Mooraj",
+      "Yicheng Lai",
+      "Raj Sanjaykumar Patel",
+      "Margaret Wu",
+      "Yanming Zhang",
+      "Jie Ren",
+      "Shuai Guan",
+      "Aurelien Perron",
+      "Wentao Yan",
+      "Joseph T. McKeown",
+      "Kelvin Y. Xie",
+      "Thomas Voisin",
+      "Wei Chen",
+      "Wen Chen"
+    ],
+    "year": 2025,
+    "journal": "Advanced Materials",
+    "volume": "37",
+    "issue": "44",
+    "pages": "e08659",
+    "date": [
+      2025,
+      11
+    ],
+    "source": "https://api.crossref.org/works/10.1002/adma.202508659"
+  },
+  {
+    "group": "complex",
+    "doi": "10.1021/jacs.5c06254",
+    "title": "Entropy-Driven Structural Evolution in Ceramic Oxides",
+    "authors": [
+      "Shuo Liu",
+      "Chaochao Dun",
+      "Lin Xiong",
+      "Shaon Das",
+      "Sanjit Ghose",
+      "Dominik Wierzbicki",
+      "Kaiwen Chen",
+      "Zhengxi Xuan",
+      "Kun Wang",
+      "Feipeng Yang",
+      "Baishakhi Mazumder",
+      "Xinyi Wang",
+      "Wei Chen",
+      "Zhou Lin",
+      "Jeffrey J. Urban",
+      "Mark T. Swihart"
+    ],
+    "year": 2025,
+    "journal": "Journal of the American Chemical Society",
+    "volume": "147",
+    "issue": "31",
+    "pages": "27685-27697",
+    "date": [
+      2025,
+      8,
+      6
+    ],
+    "source": "https://api.crossref.org/works/10.1021/jacs.5c06254"
+  },
+  {
+    "group": "complex",
+    "doi": "10.1016/j.mtphys.2025.101796",
+    "title": "Observation of short-range order in refractory high-entropy alloys from atomic-positions deviation using STEM and atomistic simulations",
+    "authors": [
+      "Chia-Yi Wu",
+      "George Kim",
+      "Yuan-Wei Chang",
+      "Chenyang Li",
+      "Juntan Li",
+      "Haixuan Xu",
+      "Chanho Lee",
+      "Peter K. Liaw",
+      "Wei Chen",
+      "Yi-Chia Chou"
+    ],
+    "year": 2025,
+    "journal": "Materials Today Physics",
+    "volume": "57",
+    "issue": "",
+    "pages": "101796",
+    "date": [
+      2025,
+      9
+    ],
+    "source": "https://api.crossref.org/works/10.1016/j.mtphys.2025.101796"
+  },
+  {
+    "group": "complex",
+    "doi": "10.1126/sciadv.abo7333",
+    "title": "Design metastability in high-entropy alloys by tailoring unstable fault energies",
+    "authors": [
+      "Xin Wang",
+      "Rafael Rodriguez De Vecchis",
+      "Chenyang Li",
+      "Hanlei Zhang",
+      "Xiaobing Hu",
+      "Soumya Sridar",
+      "Yuankang Wang",
+      "Wei Chen",
+      "Wei Xiong"
+    ],
+    "year": 2022,
+    "journal": "Science Advances",
+    "volume": "8",
+    "issue": "36",
+    "pages": "eabo7333",
+    "date": [
+      2022,
+      9,
+      9
+    ],
+    "source": "https://api.crossref.org/works/10.1126/sciadv.abo7333"
+  },
+  {
+    "group": "informatics",
+    "doi": "10.1038/s41524-022-00779-7",
+    "title": "Composition design of high-entropy alloys with deep sets learning",
+    "authors": [
+      "Jie Zhang",
+      "Chen Cai",
+      "George Kim",
+      "Yusu Wang",
+      "Wei Chen"
+    ],
+    "year": 2022,
+    "journal": "npj Computational Materials",
+    "volume": "8",
+    "issue": "1",
+    "pages": "89",
+    "date": [
+      2022,
+      4,
+      28
+    ],
+    "source": "https://api.crossref.org/works/10.1038/s41524-022-00779-7"
+  },
+  {
+    "group": "informatics",
+    "doi": "10.1038/sdata.2015.9",
+    "title": "Charting the complete elastic properties of inorganic crystalline compounds",
+    "authors": [
+      "Maarten de Jong",
+      "Wei Chen",
+      "Thomas Angsten",
+      "Anubhav Jain",
+      "Randy Notestine",
+      "Anthony Gamst",
+      "Marcel Sluiter",
+      "Chaitanya Krishna Ande",
+      "Sybrand van der Zwaag",
+      "Jose J Plata",
+      "Cormac Toher",
+      "Stefano Curtarolo",
+      "Gerbrand Ceder",
+      "Kristin A. Persson",
+      "Mark Asta"
+    ],
+    "year": 2015,
+    "journal": "Scientific Data",
+    "volume": "2",
+    "issue": "1",
+    "pages": "150009",
+    "date": [
+      2015,
+      3,
+      17
+    ],
+    "source": "https://api.crossref.org/works/10.1038/sdata.2015.9"
+  },
+  {
+    "group": "informatics",
+    "doi": "10.1002/cpe.3505",
+    "title": "FireWorks: a dynamic workflow system designed for high‐throughput applications",
+    "authors": [
+      "Anubhav Jain",
+      "Shyue Ping Ong",
+      "Wei Chen",
+      "Bharat Medasani",
+      "Xiaohui Qu",
+      "Michael Kocher",
+      "Miriam Brafman",
+      "Guido Petretto",
+      "Gian‐Marco Rignanese",
+      "Geoffroy Hautier",
+      "Daniel Gunter",
+      "Kristin A. Persson"
+    ],
+    "year": 2015,
+    "journal": "Concurrency and Computation: Practice and Experience",
+    "volume": "27",
+    "issue": "17",
+    "pages": "5037-5059",
+    "date": [
+      2015,
+      12,
+      10
+    ],
+    "source": "https://api.crossref.org/works/10.1002/cpe.3505"
+  },
+  {
+    "group": "energy",
+    "doi": "10.1038/s41467-024-49191-3",
+    "title": "Identifying critical features of iron phosphate particle for lithium preference",
+    "authors": [
+      "Gangbin Yan",
+      "Jialiang Wei",
+      "Emory Apodaca",
+      "Suin Choi",
+      "Peter J. Eng",
+      "Joanne E. Stubbs",
+      "Yu Han",
+      "Siqi Zou",
+      "Mrinal K. Bera",
+      "Ronghui Wu",
+      "Evguenia Karapetrova",
+      "Hua Zhou",
+      "Wei Chen",
+      "Chong Liu"
+    ],
+    "year": 2024,
+    "journal": "Nature Communications",
+    "volume": "15",
+    "issue": "1",
+    "pages": "4859",
+    "date": [
+      2024,
+      6,
+      7
+    ],
+    "source": "https://api.crossref.org/works/10.1038/s41467-024-49191-3"
+  },
+  {
+    "group": "energy",
+    "doi": "10.1038/s41467-022-32369-y",
+    "title": "The role of solid solutions in iron phosphate-based electrodes for selective electrochemical lithium extraction",
+    "authors": [
+      "Gangbin Yan",
+      "George Kim",
+      "Renliang Yuan",
+      "Eli Hoenig",
+      "Fengyuan Shi",
+      "Wenxiang Chen",
+      "Yu Han",
+      "Qian Chen",
+      "Jian-Min Zuo",
+      "Wei Chen",
+      "Chong Liu"
+    ],
+    "year": 2022,
+    "journal": "Nature Communications",
+    "volume": "13",
+    "issue": "1",
+    "pages": "4579",
+    "date": [
+      2022,
+      8,
+      5
+    ],
+    "source": "https://api.crossref.org/works/10.1038/s41467-022-32369-y"
+  },
+  {
+    "group": "complex",
+    "doi": "10.1038/s41563-026-02727-y",
+    "title": "Crystal nucleation and growth in high-entropy alloys revealed by atomic electron tomography",
+    "authors": [
+      "Yakun Yuan",
+      "Saman Moniri",
+      "Yao Yang",
+      "Jihan Zhou",
+      "Andrew Yuan",
+      "Dennis S. Kim",
+      "Yongsoo Yang",
+      "Chenyang Li",
+      "Kun Luo",
+      "Qi An",
+      "Wei Chen",
+      "Peter Ercius",
+      "Jianwei Miao"
+    ],
+    "year": 2026,
+    "journal": "Nature Materials",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "note": "Published online August 25, 2026.",
+    "source": "https://www.nature.com/articles/s41563-026-02727-y"
+  },
+  {
+    "group": "energy",
+    "doi": "10.1021/jacs.6c01469",
+    "title": "Selective Electrosynthesis of Ammonia via Sequential Electron–Proton Transfer",
+    "authors": [
+      "Jiacheng Jayden Wang",
+      "Chenglong Qiu",
+      "Ximeng Lv",
+      "Zhuoran Lv",
+      "Xunlu Wang",
+      "Junqing Ma",
+      "Qiunan Liu",
+      "Kazu Suenaga",
+      "Lijia Liu",
+      "Yong Han",
+      "Zheng Peng",
+      "Shucheng Shi",
+      "Wei Chen",
+      "Hui Bi",
+      "Tore Brinck",
+      "Zhi Liu",
+      "Minghui Yang",
+      "Jiacheng Wang",
+      "Fuqiang Huang"
+    ],
+    "year": 2026,
+    "journal": "Journal of the American Chemical Society",
+    "volume": "148",
+    "issue": "20",
+    "pages": "20570–20581",
+    "source": "https://pubs.acs.org/doi/10.1021/jacs.6c01469"
+  },
+  {
+    "group": "energy",
+    "doi": "10.1126/sciadv.adz7696",
+    "title": "Ultraselective sequestration of Li⁺ and Mg²⁺ from brines via a reusable polyoxoniobate-based ion sponge",
+    "authors": [
+      "Linfeng Chen",
+      "Chenyang Li",
+      "Sahand Adibnia",
+      "Sizhuo Yang",
+      "Jialu Li",
+      "Erika Samolova",
+      "Andrew Dopilka",
+      "Zhiyuan Huang",
+      "Raynald Giovine",
+      "Xander B. Fleming",
+      "Jinghua Guo",
+      "Andrew Z. Haddad",
+      "Robert Kostecki",
+      "Wei Chen",
+      "Chaochao Dun",
+      "Jeffrey J. Urban"
+    ],
+    "year": 2025,
+    "journal": "Science Advances",
+    "volume": "11",
+    "issue": "49",
+    "pages": "eadz7696",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12680045/"
+  },
+  {
+    "group": "informatics",
+    "doi": "10.1063/1.4812323",
+    "title": "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation",
+    "authors": [
+      "A. Jain, S.P. Ong, G. Hautier, W. Chen, W.D. Richards, S. Dacek, S. Cholia, D. Gunter, D. Skinner, G. Ceder, and K.A. Persson"
+    ],
+    "year": 2013,
+    "journal": "APL Materials",
+    "volume": "1",
+    "issue": "1",
+    "pages": "011002",
+    "source": "https://engineering.buffalo.edu/materials-design-innovation/community.host.html/content/shared/engineering/materials-design-innovation/profiles/faculty/chen-wei.detail.publications.html"
+  },
+  {
+    "group": "energy",
+    "doi": "10.1039/D0EE01598A",
+    "title": "Surface decoration accelerates the hydrogen evolution kinetics of a perovskite oxide in alkaline solution",
+    "authors": [
+      "C. Hu, J. Hong, J. Huang, W. Chen, C.U. Segre, K. Suenaga, W. Zhao, F. Huang, and J. Wang"
+    ],
+    "year": 2020,
+    "journal": "Energy & Environmental Science",
+    "volume": "13",
+    "issue": "11",
+    "pages": "4249–4257",
+    "source": "https://engineering.buffalo.edu/materials-design-innovation/community.host.html/content/shared/engineering/materials-design-innovation/profiles/faculty/chen-wei.detail.publications.html"
+  }
+]
