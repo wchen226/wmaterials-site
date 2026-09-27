@@ -16,3 +16,4 @@
 @media print{.site-header,.site-footer,.actions,.pub-sidebar{display:none}.wrap{width:100%}.hero,.section{padding-block:20px}.focus-panel,.contact-section{background:#fff;color:#000;border:1px solid #ccc}.focus-panel a,.focus-panel small,.focus-panel .eyebrow,.panel-note,.panel-note span,.contact-section p,.contact-section address,.contact-email{color:#000}.paper-card,.research-row,.pub-row{break-inside:avoid}.pub-layout{display:block}.contact-inner{padding:20px}.selected-section{background:#fff}}
 
 body{overflow-wrap:anywhere}.header-inner{flex-wrap:wrap}.contact-inner{flex-wrap:wrap}.pub-layout>div,.hero>div{min-width:0}
+summary{position:relative;display:block;padding-right:3rem}summary span{position:absolute;right:.5rem;top:.8rem;line-height:1.2;transform-origin:center}
