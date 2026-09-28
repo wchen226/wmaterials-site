@@ -19,3 +19,5 @@ body{overflow-wrap:anywhere}.header-inner{flex-wrap:wrap}.contact-inner{flex-wra
 summary{position:relative;display:block;padding-right:3rem}summary span{position:absolute;right:.5rem;top:.8rem;line-height:1.2;transform-origin:center}
 
 .about-section{align-items:center}.profile-portrait{display:block;width:100%;max-width:280px;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:4px;margin-bottom:24px;background:var(--surface)}
+
+.research-overview{margin:0 0 52px}.research-overview-image{display:block;border:1px solid var(--line);border-radius:4px;overflow:hidden;background:#fff}.research-overview-image img{display:block;width:100%;height:auto}.research-overview figcaption{display:flex;justify-content:space-between;align-items:baseline;gap:12px 24px;flex-wrap:wrap;padding-top:16px;font-size:.875rem;color:var(--muted)}.research-overview figcaption a{white-space:nowrap;font-weight:700}

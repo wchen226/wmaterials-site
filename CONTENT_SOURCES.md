@@ -26,3 +26,7 @@ The Nature Communications additive-manufacturing paper has a 2025 online publica
 - Built-in browser disclosure controls provide expandable research details without JavaScript.
 - The existing GitHub Pages workflow and CNAME remain compatible with the updated source.
 - Unmodified Astro demo posts and lorem-ipsum routes were removed; /about/ points to the professional profile and /blog/ points to publications.
+
+## Research overview figure
+
+The dimensional research overview was selected by Wei Chen on September 28, 2026. It is an AI-generated conceptual schematic of complementary research methods and application areas, not measured or calculated results. The image has descriptive alternative text, responsive WebP variants, and a full-size view.
