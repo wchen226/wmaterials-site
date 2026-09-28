@@ -17,3 +17,5 @@
 
 body{overflow-wrap:anywhere}.header-inner{flex-wrap:wrap}.contact-inner{flex-wrap:wrap}.pub-layout>div,.hero>div{min-width:0}
 summary{position:relative;display:block;padding-right:3rem}summary span{position:absolute;right:.5rem;top:.8rem;line-height:1.2;transform-origin:center}
+
+.about-section{align-items:center}.profile-portrait{display:block;width:100%;max-width:280px;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:4px;margin-bottom:24px;background:var(--surface)}
