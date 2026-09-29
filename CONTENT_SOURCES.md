@@ -30,3 +30,17 @@ The Nature Communications additive-manufacturing paper has a 2025 online publica
 ## Research overview figure
 
 The dimensional research overview was selected by Wei Chen on September 28, 2026. It is an AI-generated conceptual schematic of complementary research methods and application areas, not measured or calculated results. The image has descriptive alternative text, responsive WebP variants, and a full-size view.
+
+## Publication figures (September 28, 2026)
+
+Seven authentic Figure 1 images are reproduced in full on the publications page. Source files retain the original scientific content; Astro creates resized WebP thumbnails without cropping. Each image links to its source with author credit and a linked Creative Commons license. No separate credit exclusion was found for these figures. Noncommercial licenses apply to use on this academic website.
+
+- **10.1038/s41467-025-67301-7** — Figure 1, Weiqi Wang et al.. [Source](https://www.nature.com/articles/s41467-025-67301-7/figures/1); [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). File: `src/assets/publications/s41467-025-67301-7-fig1.png`.
+- **10.1038/s41524-022-00779-7** — Figure 1, Jie Zhang et al.. [Source](https://www.nature.com/articles/s41524-022-00779-7/figures/1); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). File: `src/assets/publications/s41524-022-00779-7-fig1.png`.
+- **10.1038/sdata.2015.9** — Figure 1, Maarten de Jong et al.. [Source](https://www.nature.com/articles/sdata20159/figures/1); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). File: `src/assets/publications/sdata20159-fig1.jpg`.
+- **10.1038/s41467-024-49191-3** — Figure 1, Gangbin Yan et al.. [Source](https://www.nature.com/articles/s41467-024-49191-3/figures/1); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). File: `src/assets/publications/s41467-024-49191-3-fig1.png`.
+- **10.1038/s41467-022-32369-y** — Figure 1, Gangbin Yan et al.. [Source](https://www.nature.com/articles/s41467-022-32369-y/figures/1); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). File: `src/assets/publications/lithium-extraction-2022-fig1.jpg`.
+- **10.1126/sciadv.abo7333** — Figure 1, Xin Wang et al.. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC9462695/); [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). File: `src/assets/publications/metastability-2022-fig1.jpg`.
+- **10.1126/sciadv.adz7696** — Figure 1, Linfeng Chen et al.. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12680045/); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). File: `src/assets/publications/ion-sponge-2025-fig1.jpg`.
+
+Publisher rights-and-permissions sections were checked for the Nature-family articles; article copyright notices in PubMed Central were checked for the Science Advances articles. Papers without a verified reusable figure remain text-only.
