@@ -1,0 +1,48 @@
+---
+import Site from '../layouts/Site.astro';
+import NewsHighlights from '../components/NewsHighlights.astro';
+import news from '../data/news.json';
+const topics=[{id:'all',label:'All research'},{id:'complex',label:'Complex materials'},{id:'informatics',label:'AI & materials data'},{id:'energy',label:'Energy & resources'}];
+const date=(value:string)=>new Date(value+'T12:00:00Z').toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});
+---
+<Site title="Research in the News | Wei Chen" description="Media coverage and institutional research features on Wei Chen’s work and collaborations in materials modeling, AI, alloys, and energy materials.">
+<div class="wrap news-hero"><p class="eyebrow">RESEARCH & COLLABORATION</p><h1>Research in the news.</h1><p>Stories behind the science—from computational discovery to collaborative advances in materials and energy.</p><a class="text-link" href="#archive">Explore the coverage archive</a></div>
+<section class="wrap news-featured" aria-labelledby="featured-news"><h2 id="featured-news" class="news-section-title">Featured stories</h2><NewsHighlights /></section>
+<section id="archive" class="wrap news-archive" aria-labelledby="archive-title">
+ <div class="section-heading"><div><p class="eyebrow">COVERAGE ARCHIVE</p><h2 id="archive-title">Explore the research.</h2></div><p class="news-updated">Last updated September 29, 2026</p></div>
+ <div class="news-filters" role="group" aria-label="Filter coverage by research topic" hidden>{topics.map(t=><button type="button" data-topic={t.id} aria-pressed={t.id==='all'}>{t.label}</button>)}</div>
+ <p class="news-results" aria-live="polite" aria-atomic="true">{news.length} research stories · {news.reduce((n,s)=>n+s.links.length,0)} coverage links</p>
+ <div class="news-list">{news.map(s=><article class="news-row" id={s.id} data-news-topic={s.topic}>
+ <div class="news-row-date"><time datetime={s.date}>{date(s.date)}</time><span>{topics.find(t=>t.id===s.topic)?.label}</span></div>
+ <div class="news-row-content"><h3>{s.title}</h3><p class="news-summary">{s.summary}</p><p class="news-contribution">{s.contribution}</p>
+ <div class="news-primary-link"><span class="news-kind">{s.links[0].kind}</span><a href={s.links[0].url}>{s.links[0].title}</a><span class="news-meta">{s.links[0].outlet}</span></div>
+ {s.links.length>1&&<details class="news-more"><summary>Also covered by ({s.links.length-1})<span aria-hidden="true">+</span></summary><ul>{s.links.slice(1).map(l=><li><a href={l.url}>{l.title}</a><span>{l.outlet} · {date(l.date)} · {l.kind}</span></li>)}</ul></details>}
+ <a class="news-paper" href={'https://doi.org/'+s.doi}>Related paper <span>DOI: {s.doi}</span></a>
+ </div></article>)}</div>
+ <p class="news-scope">This archive brings together verified research coverage found to date. Reports about the same study are grouped together; institutional republications are identified alongside their sources. Featured figures are reproduced in full, with only display size and file format optimized.</p>
+</section>
+</Site>
+<script>
+const filters=document.querySelector<HTMLElement>('.news-filters');
+const buttons=[...document.querySelectorAll<HTMLButtonElement>('.news-filters button')];
+const stories=[...document.querySelectorAll<HTMLElement>('[data-news-topic]')];
+const result=document.querySelector<HTMLElement>('.news-results');
+function applyTopic(topic:string){
+ buttons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.topic===topic)));
+ let count=0;
+ stories.forEach(s=>{s.hidden=topic!=='all'&&s.dataset.newsTopic!==topic;if(!s.hidden)count++;});
+ if(result) result.textContent=`${count} research ${count===1?'story':'stories'}`;
+}
+if(filters)filters.hidden=false;
+buttons.forEach(b=>b.addEventListener('click',()=>applyTopic(b.dataset.topic||'all')));
+document.querySelectorAll<HTMLAnchorElement>('a[href^="/news/#"]').forEach(link=>{
+ link.addEventListener('click',()=>{
+  const target=stories.find(s=>'#'+s.id===link.hash);
+  if(target?.hidden)applyTopic('all');
+ });
+});
+window.addEventListener('hashchange',()=>{
+ const target=stories.find(s=>'#'+s.id===window.location.hash);
+ if(target?.hidden){applyTopic('all');target.scrollIntoView({block:'start'});}
+});
+</script>

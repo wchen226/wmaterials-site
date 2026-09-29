@@ -1,0 +1,181 @@
+[
+  {
+    "id": "flame-aerosol-alloys",
+    "topic": "complex",
+    "title": "Making advanced catalyst materials in milliseconds",
+    "date": "2026-06-30",
+    "doi": "10.1038/s41467-026-72958-9",
+    "summary": "A flame aerosol process rapidly forms high-entropy alloy nanoparticles, opening new ways to explore catalyst compositions for energy applications.",
+    "contribution": "Collaborative work with Mark Swihart, Chaochao Dun, and a multi-institution team. UB identifies Haolan Sun and Wei Chen among the Materials Design and Innovation contributors.",
+    "links": [
+      {
+        "outlet": "University at Buffalo",
+        "date": "2026-06-30",
+        "title": "UB researchers unveil new method for rapidly creating advanced catalyst materials",
+        "url": "https://www.buffalo.edu/news/releases/2026/06/high-entropy-alloy-nanoparticles-swihart.html",
+        "kind": "Institutional news"
+      },
+      {
+        "outlet": "Berkeley Lab · Molecular Foundry",
+        "date": "2026-05-28",
+        "title": "Non-Equilibrium Flame Aerosol Synthesis for Scalable High Entropy Alloy Nanoparticles",
+        "url": "https://foundry.lbl.gov/2026/05/28/non-equilibrium-flame-aerosol-synthesis-for-scalable-high-entropy-alloy-nanoparticles/",
+        "kind": "Research highlight"
+      }
+    ]
+  },
+  {
+    "id": "ion-sponge",
+    "topic": "energy",
+    "title": "An ion sponge for selective lithium and magnesium recovery",
+    "date": "2025-12-24",
+    "doi": "10.1126/sciadv.adz7696",
+    "summary": "A reusable polyoxoniobate material captures magnesium from brine while leaving lithium in solution, connecting selective separation with recovery of both resources.",
+    "contribution": "Coauthored research with Linfeng Chen, Chenyang Li, Chaochao Dun, Jeffrey Urban, and collaborators. The study combines structural, spectroscopic, and computational analysis.",
+    "links": [
+      {
+        "outlet": "Berkeley Lab · Molecular Foundry",
+        "date": "2025-12-24",
+        "title": "Ultraselective sequestration of Li+ and Mg2+ from brines via a reusable polyoxoniobate-based ion sponge",
+        "url": "https://foundry.lbl.gov/2025/12/24/ultraselective-sequestration-of-li-and-mg2-from-brines/",
+        "kind": "Research highlight"
+      }
+    ]
+  },
+  {
+    "id": "lithium-selectivity",
+    "topic": "energy",
+    "title": "Tuning particle size for selective lithium extraction",
+    "date": "2024-06-08",
+    "doi": "10.1038/s41467-024-49191-3",
+    "summary": "Iron phosphate particle size helps determine how selectively electrodes capture lithium rather than sodium, informing materials design for extraction from dilute solutions.",
+    "contribution": "Research led by Chong Liu and Gangbin Yan, with Jialiang Wei and Wei Chen among the coauthors from Illinois Tech, alongside UChicago and Argonne collaborators.",
+    "links": [
+      {
+        "outlet": "Phys.org · University of Chicago",
+        "date": "2024-06-08",
+        "title": "New method optimizes lithium extraction from seawater and groundwater",
+        "url": "https://phys.org/news/2024-06-method-optimizes-lithium-seawater-groundwater.html",
+        "kind": "Syndicated institutional news"
+      }
+    ]
+  },
+  {
+    "id": "deep-learning-alloys",
+    "topic": "informatics",
+    "title": "Deep learning for new alloys",
+    "date": "2022-07-20",
+    "doi": "10.1038/s41524-022-00779-7",
+    "summary": "High-throughput quantum calculations and Deep Sets learning connect alloy composition with stability and elastic properties, helping guide the search for new materials.",
+    "contribution": "TACC interviews Wei Chen as the study’s senior author. The work brings together Jie Zhang and George Kim at Illinois Tech with Chen Cai and Yusu Wang at UC San Diego.",
+    "links": [
+      {
+        "outlet": "Texas Advanced Computing Center",
+        "date": "2022-07-20",
+        "title": "Deep Learning for New Alloys",
+        "url": "https://tacc.utexas.edu/news/latest-news/2022/07/20/deep-learning-new-alloys/",
+        "kind": "Institutional feature & podcast"
+      },
+      {
+        "outlet": "Phys.org · University of Texas at Austin",
+        "date": "2022-07-21",
+        "title": "Deep learning for new alloys",
+        "url": "https://phys.org/news/2022-07-deep-alloys.html",
+        "kind": "Syndicated institutional news"
+      }
+    ]
+  },
+  {
+    "id": "solar-methane",
+    "topic": "energy",
+    "title": "Copper catalysts for solar-driven conversion of carbon dioxide",
+    "date": "2020-04-03",
+    "doi": "10.1021/acsnano.9b08792",
+    "summary": "Oxygen-functionalized copper nanoparticles improve methane selectivity in a solar-powered carbon dioxide conversion system.",
+    "contribution": "Coverage of Mohammad Asadi’s research team. The paper credits Wei Chen and Jialiang Wei with the density functional theory calculations that help explain catalyst activity and selectivity.",
+    "links": [
+      {
+        "outlet": "Illinois Tech",
+        "date": "2020-04-03",
+        "title": "Assistant Professor Publishes Research on High Efficiency Renewable Production of Hydrocarbons from Carbon Dioxide",
+        "url": "https://www.iit.edu/news/assistant-professor-publishes-research-high-efficiency-renewable-production-hydrocarbons-carbon",
+        "kind": "Institutional news"
+      }
+    ]
+  },
+  {
+    "id": "solar-fuels",
+    "topic": "energy",
+    "title": "Combining theory and experiment to discover solar-fuel materials",
+    "date": "2017-03-06",
+    "doi": "10.1073/pnas.1619940114",
+    "summary": "A joint computational and experimental screening approach identifies promising metal-vanadate photoanodes for converting sunlight into chemical fuels.",
+    "contribution": "Wei Chen coauthored the associated PNAS paper with the Caltech and Berkeley Lab team. The news feature focuses on work led by John Gregoire, Jeffrey Neaton, Kristin Persson, and Qimin Yan.",
+    "links": [
+      {
+        "outlet": "Berkeley Lab",
+        "date": "2017-03-06",
+        "title": "New Materials Could Turn Water into the Fuel of the Future",
+        "url": "https://newscenter.lbl.gov/2017/03/06/new-materials-could-turn-water-into-the-fuel-of-the-future/",
+        "kind": "Institutional news"
+      }
+    ]
+  },
+  {
+    "id": "piezoelectric-database",
+    "topic": "informatics",
+    "title": "Computing a textbook of crystal physics",
+    "date": "2015-09-29",
+    "doi": "10.1038/sdata.2015.53",
+    "summary": "Automated calculations map piezoelectric properties across nearly 1,000 inorganic compounds, creating an open resource for discovering useful crystal responses.",
+    "contribution": "Coauthored with Maarten de Jong, Henry Geerlings, Mark Asta, and Kristin Persson. Berkeley Lab and Illinois Tech identify Wei Chen as a member of the research team.",
+    "links": [
+      {
+        "outlet": "Berkeley Lab",
+        "date": "2015-09-29",
+        "title": "Computing A Textbook of Crystal Physics",
+        "url": "https://newscenter.lbl.gov/2015/09/29/computing-a-textbook-of-crystal-physics/",
+        "kind": "Institutional news"
+      },
+      {
+        "outlet": "Phys.org · Berkeley Lab",
+        "date": "2015-09-30",
+        "title": "Computing a textbook of crystal physics",
+        "url": "https://phys.org/news/2015-09-textbook-crystal-physics.html",
+        "kind": "Syndicated institutional news"
+      },
+      {
+        "outlet": "Illinois Tech",
+        "date": "2015-10-07",
+        "title": "Computing A Textbook of Crystal Physics",
+        "url": "https://www.iit.edu/news/computing-textbook-crystal-physics",
+        "kind": "Institutional republication"
+      },
+      {
+        "outlet": "Illinois Tech",
+        "date": "2015-10-12",
+        "title": "MMAE Assistant Professor Wei Chen Member of Team That Published Largest Database of Piezoelectric Properties",
+        "url": "https://www.iit.edu/news/mmae-assistant-professor-wei-chen-member-team-published-largest-database-piezoelectric-properties",
+        "kind": "Institutional news"
+      }
+    ]
+  },
+  {
+    "id": "elastic-database",
+    "topic": "informatics",
+    "title": "An open database of crystal elastic properties",
+    "date": "2015-04-06",
+    "doi": "10.1038/sdata.2015.9",
+    "summary": "First-principles calculations deliver complete elastic tensors for more than 1,000 inorganic compounds, helping researchers screen materials for mechanical performance.",
+    "contribution": "Berkeley Lab identifies Maarten de Jong and Wei Chen as the two lead authors, working with Mark Asta, Kristin Persson, and a broader international team.",
+    "links": [
+      {
+        "outlet": "Berkeley Lab",
+        "date": "2015-04-06",
+        "title": "Accelerating Materials Discovery With World’s Largest Database of Elastic Properties",
+        "url": "https://newscenter.lbl.gov/2015/04/06/accelerating-materials-discovery-with-worlds-largest-database-of-elastic-properties/",
+        "kind": "Institutional news"
+      }
+    ]
+  }
+]

@@ -18,7 +18,7 @@ const onHome = Astro.url.pathname === '/';
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header"><div class="header-inner wrap">
 <a class="brand" href="/" aria-label="Wei Chen home"><span class="brand-mark" aria-hidden="true">w<span>.</span></span><span>Wei Chen<span class="brand-sub">MATERIALS DESIGN & INNOVATION</span></span></a>
-<nav aria-label="Main navigation"><a href={onHome ? '#research' : '/#research'}>Research</a><a href="/publications/" aria-current={Astro.url.pathname.startsWith('/publications') ? 'page' : undefined}>Publications</a><a href={onHome ? '#about' : '/#about'}>About</a><a class="nav-contact" href={onHome ? '#contact' : '/#contact'}>Contact <span aria-hidden="true">↗</span></a></nav>
+<nav aria-label="Main navigation"><a href={onHome ? '#research' : '/#research'}>Research</a><a href="/publications/" aria-current={Astro.url.pathname.startsWith('/publications') ? 'page' : undefined}>Publications</a><a href="/news/" aria-current={Astro.url.pathname.startsWith('/news') ? 'page' : undefined}>News</a><a href={onHome ? '#about' : '/#about'}>About</a><a class="nav-contact" href={onHome ? '#contact' : '/#contact'}>Contact <span aria-hidden="true">↗</span></a></nav>
 </div></header>
 <main id="main"><slot /></main>
 <footer class="site-footer wrap"><span>© {new Date().getFullYear()} Wei Chen</span><span>Materials Design and Innovation · University at Buffalo</span><a href="#main">Back to top ↑</a></footer>

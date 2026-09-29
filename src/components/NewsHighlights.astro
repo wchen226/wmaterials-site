@@ -1,0 +1,18 @@
+---
+import { Image } from 'astro:assets';
+import news from '../data/news.json';
+import flame from '../assets/news/flame-aerosol-hea-figure-1.png';
+import deepSets from '../assets/publications/s41524-022-00779-7-fig1.png';
+import elastic from '../assets/publications/sdata20159-fig1.jpg';
+const featured = [
+ {id:'flame-aerosol-alloys',image:flame,alt:'Flame aerosol reactor, nanoparticle microscopy, elemental maps, and diffraction data.',credit:'Liu et al.',license:'CC BY-NC-ND 4.0',licenseUrl:'https://creativecommons.org/licenses/by-nc-nd/4.0/',figure:'https://www.nature.com/articles/s41467-026-72958-9/figures/1'},
+ {id:'deep-learning-alloys',image:deepSets,alt:'Integrated workflow of first-principles calculations, Deep Sets learning, and alloy design.',credit:'Zhang et al.',license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',figure:'https://www.nature.com/articles/s41524-022-00779-7/figures/1'},
+ {id:'elastic-database',image:elastic,alt:'High-throughput workflow for calculating, validating, and sharing crystal elastic tensors.',credit:'de Jong et al.',license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',figure:'https://www.nature.com/articles/sdata20159/figures/1'}
+];
+---
+<div class="news-highlights">
+{featured.map(f=>{const story=news.find(n=>n.id===f.id)!;return <article class="news-card">
+ <figure><a class="news-card-image" href={'/news/#'+story.id} aria-label={`Coverage of ${story.title}`}><Image src={f.image} alt={f.alt} width={640} widths={[320,640]} sizes="(max-width: 760px) calc(100vw - 40px), 360px" format="webp" loading="lazy" /></a><figcaption><a href={f.figure}>Fig. 1 · {f.credit}</a> · <a href={f.licenseUrl}>{f.license}</a></figcaption></figure>
+ <div class="news-card-copy"><p class="news-meta">{story.links[0].outlet} · {story.date.slice(0,4)}</p><h3><a href={'/news/#'+story.id}>{story.title}</a></h3><p>{story.summary}</p><a class="news-card-link" href={'/news/#'+story.id}>Coverage & paper</a></div>
+ </article>;})}
+</div>
