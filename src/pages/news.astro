@@ -2,6 +2,8 @@
 import Site from '../layouts/Site.astro';
 import NewsHighlights from '../components/NewsHighlights.astro';
 import news from '../data/news.json';
+import publisherUrls from '../data/publisher-links.json';
+const publisherLinks: Record<string, string> = publisherUrls;
 const topics=[{id:'all',label:'All research'},{id:'complex',label:'Complex materials'},{id:'informatics',label:'AI & materials informatics'},{id:'energy',label:'Energy & critical materials'}];
 const date=(value:string)=>new Date(value+'T12:00:00Z').toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});
 ---
@@ -17,7 +19,7 @@ const date=(value:string)=>new Date(value+'T12:00:00Z').toLocaleDateString('en-U
  <div class="news-row-content"><h3>{s.title}</h3><p class="news-summary">{s.summary}</p><p class="news-contribution">{s.contribution}</p>
  <div class="news-primary-link"><span class="news-kind">{s.links[0].kind}</span><a href={s.links[0].url}>{s.links[0].title}</a><span class="news-meta">{s.links[0].outlet}</span></div>
  {s.links.length>1&&<details class="news-more"><summary>Also covered by ({s.links.length-1})<span aria-hidden="true">+</span></summary><ul>{s.links.slice(1).map(l=><li><a href={l.url}>{l.title}</a><span>{l.outlet} · {date(l.date)} · {l.kind}</span></li>)}</ul></details>}
- <a class="news-paper" href={'https://doi.org/'+s.doi}>Related paper <span>DOI: {s.doi}</span></a>
+ <a class="news-paper" href={publisherLinks[s.doi]}>Related paper <span>DOI: {s.doi}</span></a>
  </div></article>)}</div>
  <p class="news-scope">This archive brings together verified research coverage found to date. Reports about the same study are grouped together; institutional republications are identified alongside their sources. Featured figures are reproduced in full, with only display size and file format optimized.</p>
 </section>

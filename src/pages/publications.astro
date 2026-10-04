@@ -2,6 +2,8 @@
 import Site from '../layouts/Site.astro';
 import publications from '../data/publications.json';
 import news from '../data/news.json';
+import publisherUrls from '../data/publisher-links.json';
+const publisherLinks: Record<string, string> = publisherUrls;
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import publicationImages from '../data/publication-images.json';
@@ -23,12 +25,12 @@ function initials(name:string) {
  return <article class:list={['pub-row', {'has-figure': !!asset}]}>
  <span class="pub-year">{p.year}</span>
  {asset && <figure class="pub-figure">
-   <a class="pub-thumbnail" href={figure.sourceUrl} target="_blank" rel="noopener" aria-label={`View Figure 1 and caption for ${p.title} (opens in a new tab)`}>
+   <a class="pub-thumbnail" href={figure.sourceUrl} target="_blank" rel="noopener" aria-label={`View figure and article for ${p.title} on the publisher’s website (opens in a new tab)`}>
      <Image src={asset} width={640} widths={[320,640]} sizes="(max-width: 760px) 320px, 200px" format="webp" alt={figure.alt} loading="lazy" decoding="async" />
    </a>
    <figcaption><a href={figure.sourceUrl}>{figure.caption}</a></figcaption>
  </figure>}
- <div class="pub-citation"><h3><a href={'https://doi.org/'+p.doi}>{p.title}</a></h3><p class="pub-authors">{p.authors.map(initials).join(', ')}</p><p class="pub-journal"><em>{p.journal}</em>{p.volume && `, ${p.volume}`}{p.issue && `(${p.issue})`}{p.pages && `, ${p.pages}`}.</p>{p.note && <p class="pub-authors">{p.note}</p>}<a class="pub-doi" href={'https://doi.org/'+p.doi}>DOI: {p.doi} ↗</a>{coverage && <a class="pub-coverage" href={'/news/#'+coverage.id}>Related coverage</a>}</div></article>;
+ <div class="pub-citation"><h3><a href={publisherLinks[p.doi]}>{p.title}</a></h3><p class="pub-authors">{p.authors.map(initials).join(', ')}</p><p class="pub-journal"><em>{p.journal}</em>{p.volume && `, ${p.volume}`}{p.issue && `(${p.issue})`}{p.pages && `, ${p.pages}`}.</p>{p.note && <p class="pub-authors">{p.note}</p>}<a class="pub-doi" href={publisherLinks[p.doi]}>DOI: {p.doi} ↗</a>{coverage && <a class="pub-coverage" href={'/news/#'+coverage.id}>Related coverage</a>}</div></article>;
  })}</section>)}
 <p class="pub-figure-note">Select a figure to view it with its original caption. Figures are reproduced in full; only display size and image format are optimized.</p>
 <p class="pub-note">Selected publications, not a complete bibliography. Years follow the journal volume where available; online-only articles use the online publication year. For the full record, see <a href="https://scholar.google.com/citations?hl=en&user=pYM2BqsAAAAJ">Google Scholar</a>.</p></div></div>
