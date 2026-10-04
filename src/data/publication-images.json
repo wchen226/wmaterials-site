@@ -1,6 +1,7 @@
 {
   "10.1038/s41467-025-67301-7": {
     "asset": "s41467-025-67301-7-fig1.png",
+    "caption": "High-throughput fabrication of W–Re–Os alloys.",
     "alt": "W–Re–Os alloy selection chart, additive manufacturing schematic, and photographs of the 496-sample library.",
     "sourceUrl": "https://www.nature.com/articles/s41467-025-67301-7/figures/1",
     "credit": "Weiqi Wang et al.",
@@ -9,6 +10,7 @@
   },
   "10.1038/s41524-022-00779-7": {
     "asset": "s41524-022-00779-7-fig1.png",
+    "caption": "Deep Sets learning for data-driven alloy design.",
     "alt": "Workflow from high-throughput alloy calculations through Deep Sets learning and association-rule analysis to alloy design.",
     "sourceUrl": "https://www.nature.com/articles/s41524-022-00779-7/figures/1",
     "credit": "Jie Zhang et al.",
@@ -17,6 +19,7 @@
   },
   "10.1038/sdata.2015.9": {
     "asset": "sdata20159-fig1.jpg",
+    "caption": "Calculating and validating crystal elastic tensors.",
     "alt": "Flowchart for calculating and validating crystal elastic tensors and publishing them through the Materials Project database.",
     "sourceUrl": "https://www.nature.com/articles/sdata20159/figures/1",
     "credit": "Maarten de Jong et al.",
@@ -25,6 +28,7 @@
   },
   "10.1038/s41467-024-49191-3": {
     "asset": "s41467-024-49191-3-fig1.png",
+    "caption": "Particle-size effects on lithium and sodium insertion.",
     "alt": "Diagram comparing lithium and sodium insertion phase transitions in iron phosphate particles of different sizes.",
     "sourceUrl": "https://www.nature.com/articles/s41467-024-49191-3/figures/1",
     "credit": "Gangbin Yan et al.",
@@ -33,6 +37,7 @@
   },
   "10.1038/s41467-022-32369-y": {
     "asset": "lithium-extraction-2022-fig1.jpg",
+    "caption": "Lithium–sodium solid solutions in iron phosphate.",
     "alt": "Calculated phase stability and electron microscopy maps identifying lithium–sodium solid solutions in iron phosphate.",
     "sourceUrl": "https://www.nature.com/articles/s41467-022-32369-y/figures/1",
     "credit": "Gangbin Yan et al.",
@@ -41,6 +46,7 @@
   },
   "10.1126/sciadv.abo7333": {
     "asset": "metastability-2022-fig1.jpg",
+    "caption": "Phase stability and fault energies guide alloy design.",
     "alt": "Alloy design workflow combining thermodynamic phase stability, unstable fault energies, and experimental validation of deformation mechanisms.",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9462695/",
     "credit": "Xin Wang et al.",
@@ -49,6 +55,7 @@
   },
   "10.1126/sciadv.adz7696": {
     "asset": "ion-sponge-2025-fig1.jpg",
+    "caption": "A reusable sponge captures magnesium from lithium brines.",
     "alt": "Photographs and structural schematic of a reusable polyoxoniobate sponge selectively capturing magnesium from lithium-containing brine.",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12680045/",
     "credit": "Linfeng Chen et al.",
