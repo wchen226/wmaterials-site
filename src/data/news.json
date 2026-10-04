@@ -5,8 +5,8 @@
     "title": "Making advanced catalyst materials in milliseconds",
     "date": "2026-06-30",
     "doi": "10.1038/s41467-026-72958-9",
-    "summary": "A flame aerosol process rapidly forms high-entropy alloy nanoparticles, opening new ways to explore catalyst compositions for energy applications.",
-    "contribution": "Collaborative work with Mark Swihart, Chaochao Dun, and a multi-institution team. UB identifies Haolan Sun and Wei Chen among the Materials Design and Innovation contributors.",
+    "summary": "Our group contributed first-principles modeling to a collaboration that creates high-entropy alloy nanoparticles in milliseconds, connecting rapid synthesis with atomic-scale insight for catalyst design.",
+    "contribution": "Haolan Sun and I performed density functional theory calculations and theoretical analysis with our collaborators to investigate metal reduction and catalytic reactivity. The synthesis and testing team included Shuo Liu and Jiashun Liang, working with Mark Swihart, Chaochao Dun, Jeffrey Urban, and Gang Wu.",
     "links": [
       {
         "outlet": "University at Buffalo",
@@ -30,8 +30,8 @@
     "title": "An ion sponge for selective lithium and magnesium recovery",
     "date": "2025-12-24",
     "doi": "10.1126/sciadv.adz7696",
-    "summary": "A reusable polyoxoniobate material captures magnesium from brine while leaving lithium in solution, connecting selective separation with recovery of both resources.",
-    "contribution": "Coauthored research with Linfeng Chen, Chenyang Li, Chaochao Dun, Jeffrey Urban, and collaborators. The study combines structural, spectroscopic, and computational analysis.",
+    "summary": "Our group used molecular dynamics simulations to help investigate a reusable ion sponge that captures magnesium while leaving lithium in solution, supporting selective recovery of critical materials from brines.",
+    "contribution": "Group member Chenyang Li and I carried out the molecular dynamics simulations. We collaborated with Linfeng Chen, Chaochao Dun, Jeffrey Urban, and colleagues who developed and characterized the polyoxoniobate material.",
     "links": [
       {
         "outlet": "Berkeley Lab · Molecular Foundry",
@@ -48,8 +48,8 @@
     "title": "Tuning particle size for selective lithium extraction",
     "date": "2024-06-08",
     "doi": "10.1038/s41467-024-49191-3",
-    "summary": "Iron phosphate particle size helps determine how selectively electrodes capture lithium rather than sodium, informing materials design for extraction from dilute solutions.",
-    "contribution": "Research led by Chong Liu and Gangbin Yan, with Jialiang Wei and Wei Chen among the coauthors from Illinois Tech, alongside UChicago and Argonne collaborators.",
+    "summary": "Our group contributed first-principles calculations to explain how iron phosphate particle features influence lithium preference, complementing experiments on selective extraction from dilute water sources.",
+    "contribution": "My student Jialiang Wei carried out and interpreted the density functional theory calculations under my supervision. The collaboration with Chong Liu and Gangbin Yan at UChicago linked computational insight with particle synthesis, electrochemistry, and synchrotron measurements.",
     "links": [
       {
         "outlet": "Phys.org · University of Chicago",
@@ -66,8 +66,8 @@
     "title": "Deep learning for new alloys",
     "date": "2022-07-20",
     "doi": "10.1038/s41524-022-00779-7",
-    "summary": "High-throughput quantum calculations and Deep Sets learning connect alloy composition with stability and elastic properties, helping guide the search for new materials.",
-    "contribution": "TACC interviews Wei Chen as the study’s senior author. The work brings together Jie Zhang and George Kim at Illinois Tech with Chen Cai and Yusu Wang at UC San Diego.",
+    "summary": "Our group combined high-throughput quantum calculations and interpretable analysis with Deep Sets learning to explore alloy stability and elastic properties, in collaboration with Yusu Wang’s team at UC San Diego.",
+    "contribution": "Graduate students Jie Zhang and George Kim performed the first-principles calculations and association-rule mining, respectively. I co-conceived and managed the study with Yusu Wang; Chen Cai developed the Deep Sets model. Together, we translated computational data into composition design rules.",
     "links": [
       {
         "outlet": "Texas Advanced Computing Center",
@@ -91,8 +91,8 @@
     "title": "Copper catalysts for solar-driven conversion of carbon dioxide",
     "date": "2020-04-03",
     "doi": "10.1021/acsnano.9b08792",
-    "summary": "Oxygen-functionalized copper nanoparticles improve methane selectivity in a solar-powered carbon dioxide conversion system.",
-    "contribution": "Coverage of Mohammad Asadi’s research team. The paper credits Wei Chen and Jialiang Wei with the density functional theory calculations that help explain catalyst activity and selectivity.",
+    "summary": "Our group’s quantum calculations helped explain why oxygen-functionalized copper nanoparticles improve methane selectivity in solar-driven carbon dioxide conversion.",
+    "contribution": "My student Jialiang Wei and I performed density functional theory calculations to examine catalytic activity and selectivity. Working with Mohammad Asadi’s experimental team, we connected the catalyst’s surface chemistry with its enhanced performance.",
     "links": [
       {
         "outlet": "Illinois Tech",
@@ -109,8 +109,8 @@
     "title": "Combining theory and experiment to discover solar-fuel materials",
     "date": "2017-03-06",
     "doi": "10.1073/pnas.1619940114",
-    "summary": "A joint computational and experimental screening approach identifies promising metal-vanadate photoanodes for converting sunlight into chemical fuels.",
-    "contribution": "Wei Chen coauthored the associated PNAS paper with the Caltech and Berkeley Lab team. The news feature focuses on work led by John Gregoire, Jeffrey Neaton, Kristin Persson, and Qimin Yan.",
+    "summary": "I contributed to a joint computational and experimental search for metal-vanadate photoanodes that can convert sunlight into chemical fuels.",
+    "contribution": "Working with Qimin Yan, Kristin Persson, John Gregoire, Jeffrey Neaton, and colleagues at Berkeley Lab and Caltech, I helped integrate materials calculations with experimental screening to discover promising solar-fuel materials.",
     "links": [
       {
         "outlet": "Berkeley Lab",
@@ -127,8 +127,8 @@
     "title": "Computing a textbook of crystal physics",
     "date": "2015-09-29",
     "doi": "10.1038/sdata.2015.53",
-    "summary": "Automated calculations map piezoelectric properties across nearly 1,000 inorganic compounds, creating an open resource for discovering useful crystal responses.",
-    "contribution": "Coauthored with Maarten de Jong, Henry Geerlings, Mark Asta, and Kristin Persson. Berkeley Lab and Illinois Tech identify Wei Chen as a member of the research team.",
+    "summary": "I helped develop a high-throughput computational approach that mapped piezoelectric properties across nearly 1,000 inorganic compounds, creating an open resource for materials discovery.",
+    "contribution": "The collaboration with Maarten de Jong, Henry Geerlings, Mark Asta, and Kristin Persson connected automated first-principles calculations with crystal symmetry and property analysis, enabling researchers to screen candidate piezoelectric materials.",
     "links": [
       {
         "outlet": "Berkeley Lab",
@@ -166,8 +166,8 @@
     "title": "An open database of crystal elastic properties",
     "date": "2015-04-06",
     "doi": "10.1038/sdata.2015.9",
-    "summary": "First-principles calculations deliver complete elastic tensors for more than 1,000 inorganic compounds, helping researchers screen materials for mechanical performance.",
-    "contribution": "Berkeley Lab identifies Maarten de Jong and Wei Chen as the two lead authors, working with Mark Asta, Kristin Persson, and a broader international team.",
+    "summary": "I co-led the creation of an open database of complete elastic tensors for more than 1,000 inorganic compounds, enabling computational screening for mechanical performance.",
+    "contribution": "As a lead author alongside Maarten de Jong, I helped develop and apply automated first-principles workflows through the Materials Project. The collaboration with Mark Asta, Kristin Persson, and an international team made crystal elastic properties broadly accessible.",
     "links": [
       {
         "outlet": "Berkeley Lab",
